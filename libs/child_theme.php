@@ -1,9 +1,9 @@
 <?php
 /**
- * RH Central theme
+ * RH Costa Mesa theme
  * 
  * @package rockharbor
- * @subpackage central
+ * @subpackage costamesa
  */
 class ChildTheme extends RockharborThemeBase {
 		
@@ -13,7 +13,11 @@ class ChildTheme extends RockharborThemeBase {
  * @var array
  */
 	protected $themeOptions = array(
-		'slug' => 'central',
-		'short_name' => 'Central'
+		'slug' => 'costamesa',
+		'short_name' => 'Costa Mesa',
+		'supports' => array(
+			'message',
+			'staff'
+		)
 	);
 }
