@@ -17,7 +17,8 @@ class ChildTheme extends RockharborThemeBase {
 		'short_name' => 'Costa Mesa',
 		'supports' => array(
 			'message',
-			'staff'
+			'staff',
+			'curriculum'
 		)
 	);
 }
